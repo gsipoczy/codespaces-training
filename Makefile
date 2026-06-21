@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=mail --cov=calCLI --cov=mylib test*.pytest
+	python -m pytest -vv --cov=hello --cov=mylib test*.pytest
 
 format:
 	black *.py mylib/*.py
